@@ -83,7 +83,7 @@ export default function Work() {
               <span className="work__period">Sep 2024 - Dec 2024</span>
             </div>
             <h3 className="work__role">Data Scientist &amp; Product Automation Intern</h3>
-            <p className="work__org">Lawwing</p>
+            <p className="work__org">Lawwwing</p>
             <p className="work__desc">Developed Python and SQL systems for lead generation and market analysis, including web scraping, PDF parsing and automated cron jobs on VMs.</p>
             <ul className="work__tech">
               <li>Python</li><li>SQL</li><li>Web Scraping</li><li>PDF Parsing</li><li>Cron Jobs</li><li>VMs</li>
