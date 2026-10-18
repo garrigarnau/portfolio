@@ -2,6 +2,14 @@ import ProjectPattern from '@/components/ProjectPatterns'
 
 const PROJECTS = [
   {
+    name: 'Satellite Tracker',
+    href: 'https://github.com/garrigarnau/SATELLITE-TRACKER',
+    site: 'https://satellitetracker.arnaugarriga.com/',
+    pattern: 'orbits' as const,
+    desc: 'Satellite tracker built with React, a simple end-to-end walkthrough of a basic React deployment.',
+    tech: ['React', 'Python', 'Deployment'],
+  },
+  {
     name: 'Chronic Disease AI Agent',
     href: 'https://github.com/garrigarnau/Chronic-Disease-AI-Agent',
     pattern: 'pulse' as const,
@@ -21,14 +29,6 @@ const PROJECTS = [
     pattern: 'pixels' as const,
     desc: 'Research and comparison of basic and distributed training of convolutional neural network models.',
     tech: ['Python', 'CNNs', 'Distributed Training'],
-  },
-  {
-    name: 'Satellite Tracker',
-    href: 'https://github.com/garrigarnau/SATELLITE-TRACKER',
-    site: 'https://www.satellitetracker.org/',
-    pattern: 'orbits' as const,
-    desc: 'Satellite tracker built with React, a simple end-to-end walkthrough of a basic React deployment.',
-    tech: ['React', 'Python', 'Deployment'],
   },
 ]
 
