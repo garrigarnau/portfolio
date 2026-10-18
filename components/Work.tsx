@@ -6,6 +6,9 @@ export default function Work() {
       </div>
 
       <div className="work__viewport">
+        <div className="timeline" aria-hidden="true">
+          <span className="timeline__fill" />
+        </div>
         <div className="work__track">
 
           <article className="work__panel">
