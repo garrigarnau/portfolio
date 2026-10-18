@@ -17,8 +17,13 @@ export default function Work() {
                 <h3 className="work__role">Founding Sales Engineer</h3>
                 <p className="work__org">Prosper AI <span className="work__about">Backed by $35M from a16z, Emergence and Y Combinator, Prosper AI builds voice AI agents that handle patient and payer calls for healthcare.</span></p>
               </div>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img className="work__logo" src="/logos/prosper.svg" alt="Prosper AI logo" width={120} height={38} loading="lazy" />
+              <div className="work__brand">
+                <a className="work__linkedin" href="https://www.linkedin.com/company/prospertechnologies/" target="_blank" rel="noopener noreferrer" aria-label="Prosper AI on LinkedIn">
+                  LinkedIn <span aria-hidden="true">↗</span>
+                </a>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img className="work__logo" src="/logos/prosper.svg" alt="Prosper AI logo" width={120} height={38} loading="lazy" />
+              </div>
             </div>
             <p className="work__desc">Founded and built the Sales Engineering function, with a repeatable demo process supporting 10 AEs at about four demos a day. Supported $1.5M in deal value through product demos, with $500K sold and progressing, and delivered 60+ custom demos tailored to specific customer requirements. Opened a median of two new product capabilities per week to close platform gaps, and originated two product paths that are now fully productized, generating over $300K in sales to date.</p>
             <ul className="work__tech">
@@ -35,8 +40,13 @@ export default function Work() {
                 <h3 className="work__role">Technical Sales Engineer &amp; AI Engineer</h3>
                 <p className="work__org">Aizon AI <span className="work__about">Backed by a $20M Series C led by NewVale Capital, Aizon builds AI software that optimizes pharmaceutical manufacturing.</span></p>
               </div>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img className="work__logo" src="/logos/aizon.svg" alt="Aizon logo" width={94} height={26} loading="lazy" />
+              <div className="work__brand">
+                <a className="work__linkedin" href="https://www.linkedin.com/company/aizon/posts/?feedView=all" target="_blank" rel="noopener noreferrer" aria-label="Aizon on LinkedIn">
+                  LinkedIn <span aria-hidden="true">↗</span>
+                </a>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img className="work__logo" src="/logos/aizon.svg" alt="Aizon logo" width={94} height={26} loading="lazy" />
+              </div>
             </div>
             <p className="work__desc">Supported technical sales, product demos and demo-enabling tools for pharmaceutical clients. Contributed to AI-driven production optimization, automation tools and RAG systems.</p>
             <ul className="work__tech">
