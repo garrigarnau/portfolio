@@ -9,7 +9,7 @@ export default function About() {
           <p>I&apos;m a Data Engineer from Barcelona, with a BS in Data Engineering from Universitat Autònoma de Barcelona.</p>
           <p>These days I&apos;m the Founding Sales Engineer at Prosper AI, building custom demos and the capabilities that close deals.</p>
           <p>I like sitting between customers and engineering: understanding the real problem, then shipping something fast to solve it. Build fast, fail fast, learn fast.</p>
-          <p>Aside from work, I&apos;ve spent three years volunteering as a basketball coach. I speak Catalan, Spanish, English and some Portuguese.</p>
+          <p>Aside from work, I&apos;ve spent three years volunteering as a basketball coach, worked as a waiter, and built programs and automations for my family&apos;s business. I speak Catalan, Spanish, English and some Portuguese.</p>
         </div>
         <figure className="about__fig" data-parallax="0.12">
           <div className="about__cycle" data-cycle>
