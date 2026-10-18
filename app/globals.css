@@ -373,11 +373,14 @@ a{color:inherit;text-decoration:none}
 .work__header{display:flex;justify-content:space-between;align-items:flex-start;gap:32px}
 .work__heading{min-width:0}
 .work__about{display:block;margin-top:6px;font-size:clamp(.95rem,1.1vw,1.05rem);line-height:1.5;color:var(--muted);max-width:60ch}
-.work__logo{flex:none;width:auto;height:clamp(24px,3vw,36px);margin-top:12px}
+.work__brand{flex:none;display:flex;align-items:center;gap:20px;margin-top:12px}
+.work__logo{flex:none;width:auto;height:clamp(24px,3vw,36px)}
+.work__linkedin{font-size:14px;color:var(--muted);text-decoration:none;padding:6px 0}
+.work__linkedin:hover,.work__linkedin:focus-visible{color:var(--accent)}
 @media (max-width:900px){
   .work__role{font-size:clamp(1.6rem,6.4vw,2.2rem)}
   .work__header{flex-direction:column-reverse;gap:16px}
-  .work__logo{margin-top:0}
+  .work__brand{margin-top:0}
 }
 
 /* ---------- Contact ---------- */
