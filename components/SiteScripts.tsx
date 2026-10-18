@@ -16,6 +16,7 @@ type GsapLike = {
 
 type ScrollTriggerLike = {
   batch: (target: string, vars: Record<string, unknown>) => void
+  create: (vars: Record<string, unknown>) => void
 }
 
 type GsapWindow = Window & { gsap?: GsapLike; ScrollTrigger?: ScrollTriggerLike }
@@ -157,7 +158,28 @@ export default function SiteScripts() {
         )
       })
 
-      // 6. About figurine cycle.
+      // 6. Work timeline: the line fills as the section scrolls past the middle
+      //    of the viewport, and each role's dot lights up once it's reached.
+      const work = document.getElementById('work')
+      const fill = work?.querySelector('.timeline__fill')
+      const track = work?.querySelector('.work__track')
+      if (work && fill && track) {
+        work.classList.add('timeline-live')
+        g.fromTo(
+          fill,
+          { scaleY: 0 },
+          {
+            scaleY: 1,
+            ease: 'none',
+            scrollTrigger: { trigger: track, start: 'top 55%', end: 'bottom 55%', scrub: 0.4 },
+          }
+        )
+        work.querySelectorAll('.work__panel').forEach((panel) => {
+          ScrollTrigger.create({ trigger: panel, start: 'top 55%', toggleClass: 'is-reached' })
+        })
+      }
+
+      // 7. About figurine cycle.
       startCycling()
     }
 
